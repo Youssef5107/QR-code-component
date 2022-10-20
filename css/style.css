@@ -22,3 +22,47 @@
 	font-family: regular;
 	src: url(../../assets/Fonts/Outfit/static/Outfit-Regular.ttf)
 }
+
+body {
+	background-color: var(--Light-gray);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-box {
+	border-radius: 20px;
+	background-color: var(--White);
+	max-width: 280px;
+	height: fit-content;
+}
+
+.QR-code {
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 260px;
+	border-radius: 20px;
+}
+
+.content {
+	margin: 30px 35px 20px;
+}
+
+.bold-text {
+	font-family: bold;
+	color: black;
+	text-align: center;
+}
+
+.content-text {
+	font-family: light;
+	text-align: center;
+	margin-top: 20px;
+	color: var(--Grayish-blue);
+	font-size: 13;
+}
