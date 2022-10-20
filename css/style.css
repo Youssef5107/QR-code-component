@@ -1,0 +1,24 @@
+:root {
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(212, 45%, 89%);
+	--Grayish-blue: hsl(220, 15%, 55%);
+	--Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+@font-face {
+	font-family: light;
+	src: url(../../assets/Fonts/Outfit/static/Outfit-Light.ttf)
+}
+
+
+@font-face {
+	font-family: bold;
+	src: url(../../assets/Fonts/Outfit/static/Outfit-Bold.ttf)
+}
+
+
+@font-face {
+	font-family: regular;
+	src: url(../../assets/Fonts/Outfit/static/Outfit-Regular.ttf)
+}
